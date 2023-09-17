@@ -15,7 +15,7 @@ public class Player : MonoBehaviour
 
     void Start()
     {
-         text = GameObject.Find(name: "Text").GetComponent<TextMesh>();
+        text = GameObject.Find(name: "Text").GetComponent<TextMesh>();
         pose = GetComponent<PoseChanger>();
         playerRigid = GetComponent<Rigidbody>();
 
